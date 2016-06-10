@@ -1,0 +1,125 @@
+$date
+     Jun 02, 2016       11:43:07
+$end
+
+$version
+              SystemC 2.3.0_pub_rev_20111121-OSCI --- Oct 17 2014 20:24:25
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaa  GreenNL       $end
+$var wire    1  aab  AmberNL       $end
+$var wire    1  aac  RedNL       $end
+$var wire    1  aad  GreenEL       $end
+$var wire    1  aae  AmberEL       $end
+$var wire    1  aaf  RedEL       $end
+$var wire    1  aag  GreenSL       $end
+$var wire    1  aah  AmberSL       $end
+$var wire    1  aai  RedSL       $end
+$var wire    1  aaj  GreenWL       $end
+$var wire    1  aak  AmberWL       $end
+$var wire    1  aal  RedWL       $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+1aaa
+0aab
+0aac
+0aad
+0aae
+1aaf
+0aag
+0aah
+1aai
+0aaj
+0aak
+1aal
+$end
+
+#2000
+0aaa
+1aab
+
+#2500
+0aab
+1aac
+1aad
+0aaf
+
+#4500
+0aad
+1aae
+
+#5000
+0aae
+1aaf
+1aag
+0aai
+
+#7000
+0aag
+1aah
+
+#7500
+0aah
+1aai
+1aaj
+0aal
+
+#9500
+0aaj
+1aak
+
+#10000
+1aaa
+0aac
+0aak
+1aal
+
+#12000
+0aaa
+1aab
+
+#12500
+0aab
+1aac
+1aad
+0aaf
+
+#14500
+0aad
+1aae
+
+#15000
+0aae
+1aaf
+1aag
+
+#15500
+0aai
+
+#17000
+0aag
+1aah
+
+#17500
+0aah
+1aai
+1aaj
+
+#18000
+0aal
+
+#19500
+0aaj
+1aak
+
